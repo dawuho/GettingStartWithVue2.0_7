@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Seventh Vue App</title>
+    <link rel="stylesheet" href="Content/7_1.css">
+    <script src="../Scripts/vue.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <p>{{title}}</p>
+      <hr>
+      <div>
+        <p class="user" v-for="user in users">Username:{{user.username}}</p>
+      </div>
+    </div>
+  <script src="Scripts/7_2.js"></script>
+  </body>
+</html>
